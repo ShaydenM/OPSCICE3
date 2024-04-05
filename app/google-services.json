@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "513345341340",
+    "project_id": "selfstudyplanning-27bde",
+    "storage_bucket": "selfstudyplanning-27bde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513345341340:android:287d81176602d7bc9daa59",
+        "android_client_info": {
+          "package_name": "com.example.selfstudyplanning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe7GN-cpHRv3OtRMPtBqNbWNqxWb-6XII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

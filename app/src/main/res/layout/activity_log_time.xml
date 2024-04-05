@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogTimeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study Time Tracker"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/entryDate"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="Date (dd/mm/yyyy)"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/startTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start time"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/endTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Time"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/ctaegorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLogTime"
+        android:text="Log Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
